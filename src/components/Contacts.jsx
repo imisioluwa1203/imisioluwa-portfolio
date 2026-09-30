@@ -3,7 +3,7 @@ import './Contacts.css'
 const socials = [
   { label: 'GitHub', href: 'https://github.com/imisioluwa1203' },
   // { label: 'LinkedIn', href: 'https://www.linkedin.com/in/your-name' },
-  { label: 'Email', href: 'akinsulireimisioluwa@gmail.com' },
+  { label: 'Email', href: 'mailto:akinsulireimisioluwa@gmail.com' },
 ]
 
 export default function Contact() {
@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="contact-card">
         <h2>Let's build something</h2>
         <p>Have a project in mind? I reply within a day.</p>
-        <a className="button primary" href="akinsulireimisioluwa@gmail.com">
+        <a className="button primary" href="mailto:akinsulireimisioluwa@gmail.com">
           Email me
         </a>
       </div>
