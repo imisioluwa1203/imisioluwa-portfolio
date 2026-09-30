@@ -1,0 +1,24 @@
+.about {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  scroll-margin-top: 70px;
+}
+
+.about-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.about-card p {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.about-card .tags {
+  margin: 0;
+}

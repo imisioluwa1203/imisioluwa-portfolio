@@ -1,0 +1,48 @@
+.testimonials {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.testimonials-list {
+  display: grid;
+  gap: 12px;
+}
+
+.testimonial-card {
+  margin: 0;
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.testimonial-card::before {
+  content: '\201C';
+  display: block;
+  font-size: 40px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.testimonial-card blockquote {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.testimonial-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.testimonial-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.testimonial-role {
+  font-size: 13px;
+  color: var(--muted);
+}
